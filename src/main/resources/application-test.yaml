@@ -1,0 +1,9 @@
+youtube:
+  api:
+   oauth2:
+     base_url: https://base.url
+     client_id: 123456
+     redirect_uri: http://localhost:8080
+     response_type: code
+     scope: scope
+     access_type: offline
