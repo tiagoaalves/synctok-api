@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: synctok-api
+
+youtube:
+  api:
+    oauth2:
+      base_url: https://accounts.google.com/o/oauth2/v2/auth
+      client_id: 90563979967-ujj6moi2f5fmidifrb6o7c5mcfj8f8i6.apps.googleusercontent.com
+      redirect_uri: http://localhost:8080
+      response_type: code
+      scope: https://www.googleapis.com/auth/youtube.upload
+      access_type: offline
